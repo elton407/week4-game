@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+	<div class="container">
+		<div class="panel panel-default panel-transparent">
+
+			<div class="panel-heading">Crystal Collecter</div>
+  				<div class="panel-body">
+  				  <div class="row">
+  				    <div class="col-md-6" id="leftCol">
+  					      <p>You will be given a random number at the start of the game.</p>
+        					<p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your score</p>
+        					<p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+        					<p>The value of each crystal is hidden from you until you click on it.</p>
+        					<p>Each time the game starts the game will change the value of each crystal.</p>	
+  				  </div>
+  				<div class="col-md-3" id="score">
+  					<p>Score to win: <span id="randomNumber"></span></p>
+  				</div>
+  				<div class="col-md-3" id="wins">
+  					<p>Wins: <span id="gamesWon"></span></p><p>Losses: <span id="gamesLost"></span></p>
+  				</div>
+          </div>
+  				
+  				<div class="crystal">
+  				    <ul>
+      					<li><img src="assets/images/gem1.png" id="g1"></li>
+      					<li><img src="assets/images/gem2.png" id="g2"></li>
+      					<li><img src="assets/images/gem3.png" id="g3"></li>
+      					<li><img src="assets/images/gem4.png" id="g4"></li>
+  				    </ul>
+          <div id="points">
+            <h2>Your Score:<span id="userScore"></span>
+          </div>
+  					
+  				</div>
+    
+  				</div>
+  			</div>
+  		</div>
+			
+	</div>
+
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<script type="text/javascript" src="assets/js/game.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,69 @@
+body {
+	background-image: url(bg.png);
+}
+
+
+div#leftCol.col-md-6 {
+	border-right: 5px solid white;
+	padding: 40px;
+}
+
+.panel-transparent {
+	background: none;
+}
+
+p {
+	color: white;
+	font-family: 'Audiowide', cursive;
+
+}
+
+div.col-md-3 {
+	border-right: 5px solid white;	
+	padding: 120px;
+	color: white
+}
+
+div#wins.col-md-3 {
+	padding: 93px;
+	border-right:none;
+}
+
+ul li {
+	display: inline-block;
+}
+
+img {
+	width:100px;
+	height: 100px;
+}
+
+div#cyrstal.col-md-6 {
+	border: none;
+}
+
+ul {
+	text-align: center;
+	padding-top: 20px;
+}
+
+div#userScore.col-md-3 {
+	border: 5px solid white;
+	color: white;
+	
+}
+
+#points {
+	text-align: center;
+	color: white;
+
+}
+
+div.row {
+	border: 5px solid white;
+}
+
+h2{
+	font-family: 'Audiowide', cursive;
+
+}
